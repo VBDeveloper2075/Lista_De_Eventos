@@ -36,3 +36,50 @@ input[type="submit"] {
   border-radius: 5px;
 }
 
+#eventsContainer {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  width: 500px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* .event {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+} */
+
+.event {
+  border: solid 1px black;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.event .days .days-number {
+  font-size: 30px;
+  font-weight: bold;
+  display: block;
+}
+
+.event .event-name {
+  padding: 15px;
+  width: 200px;
+}
+
+.event .event-date {
+  padding: 10px;
+  width: 100px;
+}
+
+
+
+
