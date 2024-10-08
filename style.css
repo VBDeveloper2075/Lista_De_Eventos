@@ -34,6 +34,7 @@ input[type="submit"] {
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 #eventsContainer {
@@ -57,7 +58,7 @@ input[type="submit"] {
 } */
 
 .event {
-  border: solid 1px black;
+  border: 1px solid lightgray;
   padding: 12px;
   display: flex;
   align-items: center;
@@ -80,6 +81,9 @@ input[type="submit"] {
   width: 100px;
 }
 
+#eventName, #eventDate {
+  border: 1px solid lightgray;
+}
 
 
 
